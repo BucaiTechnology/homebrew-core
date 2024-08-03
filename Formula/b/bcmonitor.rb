@@ -4,14 +4,14 @@
 class Bcmonitor < Formula
   desc ""
   homepage ""
-  url "https://github.com/BucaiTechnology/homebrew-BCMonitor/releases/tag/v0.0.1"
-  sha256 "705851a9f4791befabda90537590df2e6def47b0dc90cd79cca5ea1b944468e7"
+  url "https://github.com/BucaiTechnology/homebrew-BCMonitor/releases/download/v0.0.1/BCMonitor_0.0.1.tar.gz"
+  sha256 "66600ffa6728ef78273d6a63aa9e42380b0d72927c33641544327cf5f06be603"
   license ""
 
   # depends_on "cmake" => :build
 
   def install
-    bin.install "bcmonitor"
+    bin.install "BCMonitor"
   end
 
   test do
